@@ -37,7 +37,7 @@ export default function RootLayout({
           src="/script/schema.json"
         />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <Providers>
           <div data-scroll-container>
             <NextTopLoader color={loaderColor} height={5} />
